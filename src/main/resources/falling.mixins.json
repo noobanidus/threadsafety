@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "noobanidus.mods.falling.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "falling.refmap.json",
+  "mixins": [
+    "MixinFallingBlockEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

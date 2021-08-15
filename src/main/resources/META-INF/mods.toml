@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[36,)"
+issueTrackerURL="https://github.com/noobanidus/falling/issues"
+license="https://github.com/noobanidus/lootr/blob/1.16/LICENSE"
+[[mods]] 
+modId="falling" 
+version="${version}"
+displayName="Falling" 
+displayURL="https://minecraft.curseforge.com/projects/falling" 
+authors="Noobanidus"
+description='''
+Blocks fall faster.
+'''
+[[dependencies.Falling]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36,)"
+    ordering="NONE"
+    side="SERVER"
+[[dependencies.Falling]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="SERVER"
