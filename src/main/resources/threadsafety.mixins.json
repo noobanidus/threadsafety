@@ -2,7 +2,7 @@
   "required": true,
   "package": "noobanidus.mods.threadsafety.mixins",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "falling.refmap.json",
+  "refmap": "threadsafety.refmap.json",
   "mixins": [
     "MixinTemplateManager",
     "MixinWeightedBlockStateProvider"
