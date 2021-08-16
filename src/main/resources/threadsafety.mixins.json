@@ -1,10 +1,11 @@
 {
   "required": true,
-  "package": "noobanidus.mods.falling.mixins",
+  "package": "noobanidus.mods.threadsafety.mixins",
   "compatibilityLevel": "JAVA_8",
   "refmap": "falling.refmap.json",
   "mixins": [
-    "MixinFallingBlockEntity"
+    "MixinTemplateManager",
+    "MixinWeightedBlockStateProvider"
   ],
   "client": [
   ],

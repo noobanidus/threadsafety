@@ -1,19 +1,17 @@
-package noobanidus.mods.falling;
+package noobanidus.mods.threadsafety;
 
-import net.minecraft.block.FallingBlock;
-import net.minecraft.entity.item.FallingBlockEntity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("falling")
-public class Falling {
+@Mod("threadsafety")
+public class ThreadSafety {
   public static final Logger LOG = LogManager.getLogger();
-  public static final String MODID = "falling";
+  public static final String MODID = "threadsafety";
 
-  public Falling() {
+  public ThreadSafety() {
     IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
   }
 }
